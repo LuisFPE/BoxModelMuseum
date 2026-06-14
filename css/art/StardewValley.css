@@ -1,0 +1,137 @@
+
+/* Art 6 */
+    #StardewValley{
+        margin-top: -30px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(206, 238, 247);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        z-index: -2;
+    }
+
+    #StardewValley > .top{
+        margin-top: 30px;
+        width: 85px;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 65px;
+        background-color: rgb(130, 54, 28);
+        
+    }
+
+    #StardewValley > .head{
+        background-color: rgb(254, 211, 161);
+        height: 65px;
+        width: 70px;
+        margin-left: 65px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+    }
+
+    #StardewValley > .head > div{
+        background-color: whitesmoke;
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #StardewValley > .head > div > div{
+        background-color: rgb(10, 10, 10);
+        height: 20px;
+        width: 10px;
+    }
+
+    #StardewValley > .head > div:first-child > div{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    #StardewValley > .head > div:last-child > div{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    #StardewValley > .body{
+        margin-top: 0px;
+        background-color: rgb(48, 86, 185);
+        height: 80px;
+        width: 60px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    #StardewValley > .body > div{
+        background-color: rgb(254, 214, 157);
+        height: 20px;
+        width: 20px;
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    #StardewValley > .body> div:last-child{
+        margin-left: 60px;
+    }
+
+    #StardewValley> .body > div > div{
+        background-color: rgb(138, 31, 23);
+        height: 30px;
+        width: 20px;
+        margin-top: -25px;
+    }
+
+    #StardewValley> .body > div:first-child{
+        position: absolute;
+        background-color: rgb(138, 31, 23);
+        height: 30px;
+        width: 40px;
+        z-index: 2;
+        top: -40px;
+        left: 30px;
+    }
+
+    #StardewValley > .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 75px;
+        position: relative;
+    }
+
+    #StardewValley> .bottom > div:first-child{
+        position: absolute;
+        background-color: rgb(138, 31, 23);
+        height: 10px;
+        width: 60px;
+        z-index: 2;
+        top: -25px;
+        left: -5px;
+    }
+
+    #StardewValley> .bottom > div{
+        background-color: rgb(48, 86, 185);
+        height: 30px;
+        width: 20px;
+    }
+
+    #StardewValley> .bottom > div > div{
+        background-color: rgb(138, 31, 23);
+        height: 15px;
+        width: 20px;
+        margin-left: 0px;
+        margin-top: 20px;
+        z-index: 2;
+    }
+
+    #StardewValley > .bottom > div:last-child{
+        margin-left: 10px;
+    }

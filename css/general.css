@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    background-color: rgb(241, 255, 255);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1%;
+}
+
+Track
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(180,215,227); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(180,215,227); 
+}
+
+#header {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
+    z-index: 7;
+}
+
+#logo {
+    position: relative;
+    display: block;
+    bottom: 2.5vh;
+    height: 20vh;
+    width: 100%;
+    margin: auto;
+}
+
+/* Small devices (768px and down) */
+@media only screen and (max-width: 768px) {
+  footer{
+    position: relative !important;
+  }
+}
+
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  footer{
+    position: fixed;
+  }
+}

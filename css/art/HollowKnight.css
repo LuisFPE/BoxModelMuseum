@@ -1,0 +1,103 @@
+
+/* Art 1 */
+    #HollowKnight{
+        margin-top: -30px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(38, 73, 136);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       
+    }
+
+    #HollowKnight > .top{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 60px;
+    }
+
+    #HollowKnight > .top > div{
+        background-color: whitesmoke;
+        height: 30px;
+        width: 20px;
+    }
+
+    #HollowKnight > .top > div:last-child{
+        margin-left: 40px;
+    }
+
+    #HollowKnight > .head{
+        background-color: whitesmoke;
+        height: 70px;
+        width: 80px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #HollowKnight > .head > div{
+        background-color: rgb(10, 10, 10);
+        height: 20px;
+        width: 20px;
+        margin-top: 30px;
+        margin-left: 13px;
+    }
+
+    #HollowKnight > .body{
+        background-color: rgb(28, 33, 71);
+        height: 70px;
+        width: 60px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    #HollowKnight > .sword{
+        position: absolute;
+        background-color: whitesmoke;
+        height: 20px;
+        width: 20px;
+        top: 150px;
+        left: 120px;
+    }
+
+    #HollowKnight > .sword > div{
+        position: absolute;
+        background-color: whitesmoke;
+        height: 20px;
+        width: 20px;
+    }
+
+    #HollowKnight > .sword > div:nth-child(2){
+        top: 10px;
+        left: 12px;
+    }
+
+    #HollowKnight > .sword > div:last-child{
+        top: 20px;
+        left: 22px;
+    }
+
+    #HollowKnight > .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 75px;
+    }
+
+    #HollowKnight > .bottom > div{
+        background-color: rgb(10, 10, 10);
+        height: 30px;
+        width: 20px;
+    }
+
+    #HollowKnight > .bottom > div:last-child{
+        margin-left: 10px;
+    }

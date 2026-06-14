@@ -1,0 +1,148 @@
+
+/* Art 2 */
+    #Pikachu{
+        margin-top: -30px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(84, 143, 46);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    
+    #Pikachu > .top{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 60px;
+    }
+
+    #Pikachu > .top > div{
+        background-color: rgb(248, 206, 64);
+        height: 30px;
+        width: 20px;
+    }
+
+    #Pikachu > .top > div:last-child{
+        margin-left: 40px;
+    }
+
+    #Pikachu > .top > div > div{
+        background-color: rgb(10, 10, 10);
+        height: 10px;
+        width: 20px;
+    }
+
+    #Pikachu > .head > div:first-child{
+        background-color: rgb(248, 206, 64);
+        height: 70px;
+        width: 80px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Pikachu > .head > div:first-child > div{
+        background-color: rgb(10, 10, 10);
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        margin-left: 13px;
+    }
+
+    #Pikachu > .head > div:first-child > div > div{
+        background-color: whitesmoke;
+        height: 10px;
+        width: 10px;
+    }
+
+    #Pikachu > .head > div:last-child{
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+        margin-left: 60px;
+        position: relative;
+    }
+
+    #Pikachu > .head > div:last-child > div{
+        background-color: rgb(235, 28, 10);
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        top: -22px
+    }
+
+    #Pikachu > .head > div:last-child > div:first-child{
+        left: 8px;
+    }
+
+    #Pikachu > .head > div:last-child > div:last-child{
+        left: 56px;
+    }
+
+    #Pikachu > .body{
+        margin-top: -20px;
+        background-color: rgba(248, 205, 64);
+        height: 70px;
+        width: 60px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    #Pikachu  > .tail{
+        position: absolute;
+  
+        height: 20px;
+        width: 20px;
+        top: 150px;
+        left: 120px;
+    }
+
+    #Pikachu  > .tail > div{
+        position: absolute;
+        background-color: rgb(106, 33, 18);
+        height: 20px;
+        width: 20px;
+        top: 20px;
+    
+    }
+
+    #Pikachu  > .tail > div:nth-child(2){
+        top: 10px;
+        left: 12px;
+        background-color: rgba(248, 205, 64);
+       
+    }
+
+    #Pikachu  > .tail > div:last-child{
+        top: 0px;
+        left: 22px;
+        width: 30px;
+        background-color: rgba(248, 205, 64);
+        
+    }
+
+    #Pikachu > .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 80px;
+    }
+
+    #Pikachu > .bottom > div{
+        background-color: rgb(248, 206, 64);
+        height: 20px;
+        width: 15px;
+    }
+
+    #Pikachu > .bottom > div:last-child{
+        margin-left: 10px;
+    }
+

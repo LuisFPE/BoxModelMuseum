@@ -1,0 +1,90 @@
+/*CSS for the Bauhaus*/
+@import url('bauhaus/b1.css');
+@import url('bauhaus/b2.css');
+@import url('bauhaus/b3.css');
+@import url('bauhaus/b4.css');
+@import url('bauhaus/b5.css');
+@import url('bauhaus/b6.css');
+
+body{
+    overflow-x: hidden;
+}
+
+/*Side menu*/
+#sidemenu{
+    height: 100vh;
+    width: 5vw;
+    background-color: hsl(202, 53%, 45%);
+    transition: linear 0.5s;
+    position: fixed;
+    z-index: 5;
+}
+
+/*Title*/
+h1{
+    margin-left: 7vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+/*Gallery*/
+#gallery{
+    margin-top: -20px;
+    margin-bottom: 125px;
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.rows{
+    margin: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.frame{
+    margin: 25px;
+}
+
+/* 1 Resolution phones (768px and down) */
+@media only screen and (max-width: 768px) {
+    .frame{
+        width: 70vw;
+        height: 80vw;
+    }
+}
+
+/* 2 Resolution tablets (767px and up) */
+@media only screen and (min-width: 767px) {
+    .frame{
+        width: 40vw;
+        height: 50vw;
+    }
+}
+
+/* 3 Resolution Desktop (1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .frame{
+        width: 25vw;
+        height: 35vw;
+    }
+}

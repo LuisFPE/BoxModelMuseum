@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bauhaus_list>
+    <bauhaus_info>
+        <title>FirstBorn</title>
+        <autor>Geometric Dad</autor>
+        <year>1987</year>
+    </bauhaus_info>
+    <bauhaus_info>
+        <title>Black Eye</title>
+        <autor>Wild Thought</autor>
+        <year>1992</year>
+    </bauhaus_info>  
+    <bauhaus_info>
+        <title>The City</title>
+        <autor>Art Engineer</autor>
+        <year>2000</year>
+    </bauhaus_info>
+        <bauhaus_info>
+        <title>Two Snakes</title>
+        <autor>Wild Thought</autor>
+        <year>2007</year>
+    </bauhaus_info>
+    <bauhaus_info>
+        <title>Nice Squares</title>
+        <autor>Art Engineer</autor>
+        <year>2015</year>
+    </bauhaus_info>  
+    <bauhaus_info>
+        <title>Last One</title>
+        <autor>Geometric Dad</autor>
+        <year>2024</year>
+    </bauhaus_info>      
+</bauhaus_list> 

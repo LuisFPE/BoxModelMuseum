@@ -1,0 +1,240 @@
+    <!--Header with logo and name-->
+    <div id="header">
+        <img id="logo" src="assets/BrandImgs/Logos/logo-transparent-svg.svg" alt="BMM logo">
+    </div>
+
+    <!--Navigation bar (tablet and PC)-->
+    <div class="sticky-top d-none d-md-block">
+        <ul class="nav nav-underline nav-fill bg-primary-subtle">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Exhibitions</a>
+                <ul class="dropdown-menu border-primary-subtle">
+                    <li><a class="dropdown-item" href="exhibition.html">BMM Gallery</a></li>
+                    <li><a class="dropdown-item" href="exhibition2.html">Bauhaus Gallery</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Tickets</a>
+                <ul class="dropdown-menu border-primary-subtle">
+                    <li><a class="dropdown-item" href="tickets.html">Ticket purchase</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a><button type="button" class="btn btn-primary bg-transparent text-dark border-0"
+                                data-bs-toggle="modal" data-bs-target="#information">
+                                Information
+                            </button></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!--Navigation bar (mobile) -->
+    <div class="sticky-top d-block d-md-none">
+        <ul class="flex-column nav nav-underline nav-fill bg-primary-subtle">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Exhibitions</a>
+                <ul class="dropdown-menu border-primary-subtle">
+                    <li><a class="dropdown-item" href="exhibition.html">BMM Gallery</a></li>
+                    <li><a class="dropdown-item" href="exhibition2.html">Bauhaus Gallery</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Tickets</a>
+                <ul class="dropdown-menu border-primary-subtle">
+                    <li><a class="dropdown-item" href="tickets.html">Ticket purchase</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a><button type="button" class="btn btn-primary bg-transparent text-dark border-0"
+                                data-bs-toggle="modal" data-bs-target="#information">
+                                Information
+                            </button></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!--Information-->
+    <div class="modal fade border-primary-subtle" id="information" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog border-primary-subtle">
+            <div class="modal-content border-primary-subtle">
+                <div class="modal-header border-primary-subtle">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Information</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                        <!--BMM info-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    BMM Gallery
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+
+                                    <!--Availability-->
+                                    <ul class="list-group list-group-flush">
+                                        <span class="pb-2">Availability for the upcoming week:</span>
+                                        Monday:
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Available</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Busy</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Available</li>
+                                        </ul>
+                                        Tuesday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Available</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Full</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Available</li>
+                                        </ul>
+                                        Wednesday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Full</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Available</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Busy</li>
+                                        </ul>
+                                        Thursday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Available</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Available</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Available</li>
+                                        </ul>
+                                        Friday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Busy</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Available</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Full</li>
+                                        </ul>
+                                    </ul>
+
+                                    <!--Prices-->
+                                    <table class="table border-primary-subtle table-striped-columns table-hover mt-3">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ticket type</th>
+                                                <th scope="col">Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Adult</td>
+                                                <td>€12</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Student</td>
+                                                <td>€8</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Child</td>
+                                                <td>€5</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Guided visit</td>
+                                                <td>€3/person</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Bauhaus info-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Bauhaus Gallery
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <!--Availability-->
+                                    <ul class="list-group list-group-flush">
+                                        <span class="pb-2">Availability for the upcoming week:</span>
+                                        Monday:
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Busy</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Busy</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Full</li>
+                                        </ul>
+                                        Tuesday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Busy</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Full</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Available</li>
+                                        </ul>
+                                        Wednesday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Full</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Busy</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Busy</li>
+                                        </ul>
+                                        Thursday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Busy</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Full</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Full</li>
+                                        </ul>
+                                        Friday
+                                        <ul class="list-group-item">
+                                            <li class="ms-3">8:30 am - 11:59 am: Busy</li>
+                                            <li class="ms-3">12:00 am - 4:59 pm: Full</li>
+                                            <li class="ms-3">5:00 pm - 9:59 pm: Busy</li>
+                                        </ul>
+                                    </ul>
+
+                                    <!--Prices-->
+                                    <table class="table border-primary-subtle table-striped-columns table-hover mt-3">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ticket type</th>
+                                                <th scope="col">Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Adult</td>
+                                                <td>€15</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Student</td>
+                                                <td>€10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Child</td>
+                                                <td>€7</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Guided visit</td>
+                                                <td>€5/person</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

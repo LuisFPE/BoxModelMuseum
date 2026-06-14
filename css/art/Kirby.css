@@ -1,0 +1,108 @@
+/* Art 8 */
+    #Kirby{
+        margin-top: -30px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(24, 216, 255);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    #Kirby > .head > div:first-child{
+        background-color: rgb(255, 184, 218);
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Kirby > .head > div:first-child > div{
+        background-color: rgb(10, 10, 10);
+        height: 20px;
+        width: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #Kirby > .head > div:first-child > div > div{
+        background-color: whitesmoke;
+        height: 10px;
+        width: 10px;
+        margin-top: 0px;
+        margin-left: -1px;
+    }
+
+    #Kirby > .head > div:first-child > div:first-child > div{
+        margin-left: 10px;
+    }
+
+
+    #Kirby > .head > div:last-child{
+        height: 50px;
+        width: 50px;
+        margin-top: 0px;
+        margin-left: 60px;
+        position: relative;
+    }
+
+    #Kirby > .head > div:last-child > div{
+        background-color: rgb(254, 103, 170);
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        top: -42px
+    }
+
+    #Kirby > .head > div:last-child > div:first-child{
+        left: 0px;
+    }
+
+    #Kirby> .head > div:last-child > div:last-child{
+        left: 65px;
+    }
+
+    #Kirby  > .body  {
+        position: relative;
+        height: 15px;
+        width: 150px;
+        margin-top: -100px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Kirby  > .body > div{
+        background-color: rgb(255, 184, 218);
+        height: 35px;
+        width: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    #Kirby  > .body > div:last-child{
+       margin-left: 100px;
+    }
+
+    #Kirby > .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 65px;
+        margin-bottom: 0px;
+    }
+
+    #Kirby > .bottom > div{
+        background-color: rgb(225, 63, 79);
+        height: 20px;
+        width: 30px;
+        margin-top: 35px;
+    }
+
+    #Kirby > .bottom > div:last-child{
+        margin-left: 10px;
+    }
+

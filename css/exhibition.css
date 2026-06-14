@@ -1,0 +1,138 @@
+/*CSS for the artworks*/
+@import url('art/HollowKnight.css');
+@import url('art/Pikachu.css');
+@import url('art/Madeline.css');
+@import url('art/Link.css');
+@import url('art/Slugcat.css');
+@import url('art/StardewValley.css');
+@import url('art/WildFrost.css');
+@import url('art/Kirby.css');
+
+body{
+    width: 100%;
+    overflow-x: none;
+}
+
+/*Title*/
+h1{
+    margin-left: 7vw;
+    margin-top: 4vh;
+    margin-bottom: 0px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    padding-top: 40px;
+}
+
+/*Gallery*/
+#gallery{
+    margin-top: 20px;
+    padding: 0px;
+    width: 99%;
+    margin-left: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rows{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.frame{
+    margin: 0px;
+    height: 250px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.subtitle{
+    position: relative;
+    top: -40px;
+    margin: 0px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 2em;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* 1 Resolution phones (768px and down) */
+@media only screen and (max-width: 768px) {
+    .rows{
+        height: auto;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .frame{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .gallery{
+        margin-bottom: 2vh;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+/* 2 Resolution tablets (767px and up) */
+@media only screen and (min-width: 767px) {
+    .rows{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .frame{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: 10vh 10vw;
+    }
+
+    .gallery{
+        margin-bottom: 2vh;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+/* 3 Resolution Desktop (1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .rows{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .frame{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: 5vh 5vw;
+    }
+
+    footer{
+        position: fixed;
+    }
+}

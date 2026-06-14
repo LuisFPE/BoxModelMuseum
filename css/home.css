@@ -1,0 +1,73 @@
+
+/* 1 Resolution phones (768px and down) */
+@media only screen and (max-width: 768px) {
+    .articleList {
+        width: 90%;
+        margin-bottom: 50px;
+        border: 1px solid hsl(202, 53%, 45%);
+    }
+}
+
+/* 2 Resolution tablets (767px and up) */
+@media only screen and (min-width: 767px) {
+    .articleList {
+        width: 80%;
+        margin-bottom: 50px;
+        border: 3px solid hsl(202, 53%, 45%);
+    }
+}
+
+/* 3 Resolution Desktop (1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .articleList {
+        width: 70%;
+        border: 5px solid hsl(202, 53%, 45%);
+    }
+}
+
+/*Articles*/
+.articleList {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2.5vh;
+    left: 5.5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-bottom: 2.5vh;
+    border-radius: 5px;
+}
+
+
+
+#article {
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    left: 3vw;
+}
+
+#article > h2 {
+    position: relative;
+    margin-left: -2vw;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+}
+
+#article > p {
+    font-family: "Archivo Narrow", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+}
+
+#signature {
+    position: relative;
+    text-align: right;
+    right: 3vw;
+}
+

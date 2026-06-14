@@ -1,0 +1,208 @@
+
+/* Art 7 */
+  #WildFrost{
+        margin-top: -30px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(103, 67, 59);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #WildFrost > .top{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 60px;
+    }
+
+    #WildFrost > .top > div{
+        background-color: rgb(49, 213, 181);
+        height: 30px;
+        width: 20px;
+    }
+
+    #WildFrost > .top > div:last-child{
+        margin-left: 40px;
+    }
+
+    #WildFrost > .top > div > div{
+        background-color: whitesmoke;
+        height: 15px;
+        width: 20px;
+    }
+
+    #WildFrost > .head > div:first-child{
+        background-color: rgb(49, 213, 181);
+        height: 70px;
+        width: 80px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #WildFrost > .head > div:first-child > div{
+        background-color: rgb(10, 10, 10);
+        height: 10px;
+        width: 15px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #WildFrost > .head > div:first-child > div:last-child{
+        margin-left: 30px;
+    }
+
+    #WildFrost > .head > div:first-child > div > div{
+        background-color: rgb(10, 10, 10);
+        height: 10px;
+        width: 10px;
+        margin-top: 10px;
+    }
+
+    #WildFrost > .head > div:first-child > div:first-child > div{
+        margin-left: 15px;
+    }
+
+    #WildFrost > .head > div:first-child > div:last-child > div{
+        margin-left: -10px;
+    }
+
+    #WildFrost > .head > div:last-child{
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    #WildFrost > .head > div:last-child > div{
+        background-color: whitesmoke;
+        height: 20px;
+        width: 15px;
+        position: absolute;
+        top: -20px
+    }
+
+    #WildFrost > .head > div:last-child > div:first-child{
+        left: 60px;
+    }
+
+    #WildFrost > .head > div:last-child > div:last-child{
+        left: 125px;
+    }
+
+    #WildFrost > .body{
+        margin-top: -20px;
+        background-color: rgb(49, 213, 181);
+        height: 70px;
+        width: 60px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    #WildFrost  > .body > div{
+        background-color: whitesmoke;
+        height: 15px;
+        width: 15px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #WildFrost  > .body > div > div{
+        height: 15px;
+        width: 10px;
+        margin-left: 0px;
+        margin-top: 25px;
+        position: relative;
+        z-index: 5;
+    }
+
+    #WildFrost  > .body> div:last-child{
+        margin-left: 10px;
+    }
+
+    #WildFrost > .body > div:first-child{
+        position: absolute;
+        background-color: rgb(203, 119, 46);
+        height: 10px;
+        width: 60px;
+        z-index: 2;
+        top: -20px;
+        left: -10px;
+    }
+
+    #WildFrost  > .tail{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 150px;
+        left: 120px;
+    }
+
+    #WildFrost  > .tail > div{
+        position: absolute;
+        background-color: rgb(43, 155, 140);
+        height: 15px;
+        width: 20px;
+        top: 35px;
+        left: 10px;
+    }
+
+    #WildFrost  > .tail > div:nth-child(2){
+        top: 20px;
+        left: 20px;
+        background-color: rgb(49, 213, 181);
+       
+    }
+
+    #WildFrost  > .tail > div:nth-child(3){
+        top: 5px;
+        left: 28px;
+        background-color: rgb(43, 155, 140);
+       
+    }
+
+    #WildFrost  > .tail > div:last-child{
+        top: -10px;
+        left: 28px;
+        background-color: rgb(49, 213, 181);
+        
+    }
+
+    #WildFrost > .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 80px;
+    }
+
+    #WildFrost > .bottom > div{
+        background-color: rgb(49, 213, 181);
+        height: 20px;
+        width: 15px;
+    }
+
+    #WildFrost > .bottom > div:last-child{
+        margin-left: 10px;
+    }
+
+    #WildFrost> .bottom > div > div{
+        background-color: whitesmoke;
+        height: 10px;
+        width: 15px;
+        margin-left: 0px;
+        margin-top: 15px;
+        z-index: 2;
+    }
+
+    #WildFrost > .bottom > div:last-child{
+        margin-left: 10px;
+    }
